@@ -1,5 +1,5 @@
 <template>
-  <div :class="$attrs.class" class="flex flex-col space-y-2">
+  <div :class="$attrs.class" class="flex flex-col space-y-1">
     <label
       v-if="label"
       class="text-sm font-medium text-gray-900 block"
@@ -18,7 +18,7 @@
         text-gray-900
         sm:text-sm
         rounded-lg
-        focus:ring-cyan-600 focus:border-cyan-600
+        focus:ring-indigo-600 focus:border-indigo-600
         block
         w-full
         p-2.5

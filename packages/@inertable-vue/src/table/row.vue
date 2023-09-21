@@ -3,7 +3,7 @@
     <template v-for="(column, i) in columns" :key="i">
       <td v-if="column.blank && column.checkbox" class="p-4 w-4">
         <div class="flex items-center">
-          <input :id="`checkbox-${id}`" type="checkbox" class="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-cyan-200 h-4 w-4 rounded" />
+          <input :id="`checkbox-${id}`" type="checkbox" class="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-indigo-200 h-4 w-4 rounded" />
           <label :for="`checkbox-${id}`" class="sr-only">checkbox</label>
         </div>
       </td>

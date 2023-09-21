@@ -1,0 +1,37 @@
+{
+  "name": "@inertable/vue",
+  "version": "0.0.1",
+  "main": "dist/inertable.esm.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/inertable.esm.js",
+  "type": "module",
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/headlessui.esm.js",
+    "require": "./dist/index.cjs"
+  },
+  "license": "MIT",
+  "scripts": {
+    "watch": "../../scripts/watch-vue.sh",
+    "clean": "rimraf ./dist"
+  },
+  "peerDependencies": {
+    "@inertiajs/inertia": "^0.11.1",
+    "@inertiajs/vue3": "1.0.11",
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.10",
+    "uuid": "^9.0.1",
+    "vue-types": "^5.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.3",
+    "rimraf": "^5.0.1",
+    "tsc": "^2.0.4"
+  }
+}

@@ -39,7 +39,7 @@
           outline-none
           hover:bg-gray-50
           lg:text-sm
-          focus:ring-1 focus:ring-cyan-600 focus:border-cyan-600
+          focus:ring-1 focus:ring-indigo-600 focus:border-indigo-600
         "
       >
         <svg
@@ -73,7 +73,7 @@
           shadow-sm
           outline-none
           hover:bg-gray-50
-          focus:ring-1 focus:ring-cyan-600 focus:border-cyan-600
+          focus:ring-1 focus:ring-indigo-600 focus:border-indigo-600
         "
       >
         <svg
@@ -106,7 +106,7 @@
             text-gray-900
             sm:text-sm
             rounded-lg
-            focus:ring-cyan-600 focus:border-cyan-600
+            focus:ring-indigo-600 focus:border-indigo-600
             block
             w-[4rem]
             p-2.5
@@ -133,7 +133,7 @@
           outline-none
           hover:bg-gray-50
           p-2.5
-          focus:ring-1 focus:ring-cyan-600 focus:border-cyan-600
+          focus:ring-1 focus:ring-indigo-600 focus:border-indigo-600
         "
       >
         <svg
@@ -167,7 +167,7 @@
           outline-none
           hover:bg-gray-50
           p-2.5
-          focus:ring-1 focus:ring-cyan-600 focus:border-cyan-600
+          focus:ring-1 focus:ring-indigo-600 focus:border-indigo-600
         "
       >
         <svg

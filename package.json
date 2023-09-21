@@ -1,13 +1,25 @@
 {
-    "name": "@rizkhal/inertable-vue",
-    "version": "0.0.1",
-    "license": "MIT",
-    "peerDependencies": {
-        "vue": "^3.0.0",
-        "@inertiajs/inertia": "^0.11.0"
-    },
-    "dependencies": {
-        "@heroicons/vue": "^2.0.10",
-        "@inertiajs/inertia": "^0.11.0"
-    }
+  "name": "inertable",
+  "version": "0.0.0",
+  "description": "Headless Datatable UI for Laravel Headless Inertable",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkhal/inertable.git"
+  },
+  "author": "Rizkhal Lamaau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rizkhal/inertable/issues"
+  },
+  "homepage": "https://github.com/rizkhal/inertable#readme",
+  "devDependencies": {
+    "tslib": "^2.6.2",
+    "esbuild": "^0.19.3",
+    "typescript": "^5.2.2"
+  }
 }
